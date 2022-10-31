@@ -18,7 +18,7 @@ const lstItem = list.lastElementChild;
 const lstCat = lstItem.firstElementChild;
 const lstItemElem = lstItem.querySelectorAll("li");
 
-// RESULT
+// RESULTS
 console.log("Number of categories: ", categories.length);
 console.log("");
 console.log("Category: ", fstCat.textContent);
