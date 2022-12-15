@@ -11,5 +11,5 @@ colorNr.textContent = "#FFFFFF";
 
 btn.addEventListener("click", (event) => {
   body.style.backgroundColor = `${getRandomHexColor()}`;
-  colorNr.textContent = `${getRandomHexColor()}`;
+  colorNr.textContent = body.style.backgroundColor;
 });
